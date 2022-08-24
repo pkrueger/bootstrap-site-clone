@@ -1,0 +1,35 @@
+p.opacity-dark {
+  color: rgb(85, 85, 85, .85);
+}
+
+p.opacity-light {
+  color: rgb(255, 255, 255, .75);
+}
+
+button.btn {
+  border-radius: 20rem;
+  width: 12rem;
+  font-size: .8rem;
+  padding: .6rem 0;
+}
+
+.bg-primary-gradient {
+  background: rgb(138, 197, 227);
+  background: linear-gradient(180deg, rgba(138, 197, 227, 1) 0%, rgba(93, 161, 206, 1) 100%);
+}
+
+.bg-my-primary {
+  background-color: #5DA1CE;
+}
+
+.bg-my-dark {
+  background-color: #364049;
+}
+
+.bg-my-dark-opacity {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.text-my-dark {
+  color: #555555;
+}
