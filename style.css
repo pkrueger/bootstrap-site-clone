@@ -1,8 +1,19 @@
-p.opacity-dark {
+/*  
+  My imported fonts
+
+  font-family: 'Open Sans', sans-serif;
+
+  font-family: 'Pacifico', cursive; 
+*/
+html {
+  font-family: 'Open Sans' sans-serif;
+}
+
+.opacity-dark {
   color: rgb(85, 85, 85, .85);
 }
 
-p.opacity-light {
+.opacity-light {
   color: rgb(255, 255, 255, .75);
 }
 
@@ -13,6 +24,19 @@ button.btn {
   padding: .6rem 0;
 }
 
+.logo {
+  font-family: 'Pacifico', cursive;
+}
+
+
+
+
+
+
+
+
+
+/* BS5 like stuff */
 .bg-primary-gradient {
   background: rgb(138, 197, 227);
   background: linear-gradient(180deg, rgba(138, 197, 227, 1) 0%, rgba(93, 161, 206, 1) 100%);
