@@ -17,9 +17,20 @@ html {
   font-size: 4rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .hero-text {
     font-size: 2rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .phone-image {
+    max-width: 30vw;
+  }
+
+  .phone-image-container {
+    justify-content: center;
+    align-items: flex-end;
   }
 }
 
