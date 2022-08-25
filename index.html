@@ -41,11 +41,11 @@
   <div class="bg-primary-gradient text-white">
     <header class="container-fluid">
       <!-- SECTION Navbar -->
-      <section class="row justify-content-between align-items-center">
+      <section class="row justify-content-center justify-content-md-between align-items-center p-md-5">
         <div class="col-12 col-md-3">
-          <h2 class="logo">109leadr</h2>
+          <h2 class="logo pt-4 pb-3 p-md-0 text-center text-md-start">109leadr</h2>
         </div>
-        <div class="col-6 text-uppercase d-flex gap-5 justify-content-end">
+        <div class="col-12 col-md-6 text-uppercase d-flex gap-5 justify-content-center justify-content-md-end">
           <p>Featured</p>
           <p>Start Now</p>
         </div>
@@ -53,24 +53,29 @@
     </header>
     <div class="container-fluid">
       <!-- SECTION Hero-->
-      <section class="row">
-        <div class="col-12 col-md-6">
-          <h1>Your jobs, <strong>our news.</strong></h1>
-          <p class="opacity-light">
+      <section class="row justify-content-center justify-content-md-start">
+        <div class="col-12 col-md-6 align-self-center ps-md-5 pb-md-5">
+          <h1 class="text-center hero-text pb-3">Your jobs, <span class="hero-text-inner">
+              <strong>our news.</strong></span>
+          </h1>
+          <p class="opacity-light ps-4 ps-md-4 pb-1 pb-md-5">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque error maxime accusamus aut libero,
             laborum a reiciendis inventore in ratione odit iure. Voluptatibus ad accusamus totam debitis dicta at
             pariatur?
           </p>
-          <button class="btn text-white bg-my-dark-opacity">
-            <i class="mdi mdi-apple"></i>
-            Download for Apple
-          </button>
-          <button class="btn text-white bg-my-dark-opacity">
-            <i class="mdi mdi-android"></i>
-            Download for Android
-          </button>
+          <div class="button-box d-flex gap-3 gap-md-4 ps-md-3">
+            <button class="btn text-white bg-my-dark-opacity">
+              <i class="mdi mdi-apple"></i>
+              Download for Apple
+            </button>
+            <button class="btn text-white bg-my-dark-opacity">
+              <i class="mdi mdi-android"></i>
+              Download for Android
+            </button>
+          </div>
         </div>
         <div class="col-9 col-md-6">
+          <!-- TODO align bottom -->
           <img src="bootstrap-clone-phone.png" alt="App on mobile phone" class="img-fluid">
         </div>
       </section>
@@ -79,37 +84,38 @@
 
   <main class="container-fluid">
     <!-- SECTION Features -->
-    <section class="row text-my-dark">
-      <div class="col-12">
-        <h2>Features</h2>
+    <section class="row text-my-dark pt-5 px-5 mb-5 transition-for-effect">
+      <div class="col-12 text-center mb-md-5">
+        <h2 class="pb-2">Features</h2>
         <p class="opacity-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, beatae.</p>
       </div>
-      <div class="col-12 col-md-4">
-        <i class="mdi mdi-briefcase-outline"></i>
+      <div class="col-12 col-md-4 my-md-5 text-center px-5 on-hover-effect">
+        <i class="mdi mdi-briefcase-outline fs-2"></i>
         <h5>Your jobs</h5>
         <p class="opacity-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, est?</p>
       </div>
-      <div class="col-12 col-md-4">
-        <i class="mdi mdi-book-open-variant"></i>
+      <div class="col-12 col-md-4 my-md-5 text-center px-5 on-hover-effect">
+        <i class="mdi mdi-book-open-variant fs-2"></i>
         <h5>Read news</h5>
         <p class="opacity-dark">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero, numquam.</p>
       </div>
-      <div class="col-12 col-md-4">
-        <i class="mdi mdi-message-outline"></i>
+      <div class="col-12 col-md-4 my-md-5 text-center px-5 on-hover-effect">
+        <i class="mdi mdi-message-outline fs-2"></i>
         <h5>News about jobs</h5>
         <p class="opacity-dark">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet, amet!</p>
       </div>
     </section>
     <!-- SECTION Video -->
     <section class="row bg-my-primary text-white">
-      <div class="col-12 col-md-6">
+      <div class="col-12 col-md-6 mb-4 mb-md-0">
+        <!-- TODO align left -->
         <img src="bootstrap-clone-video.png" alt="cool video" class="img-fluid">
       </div>
-      <div class="col-12 col-md-6">
-        <h1>Lorem ipsum dolor sit amet consectetur.</h1>
-        <p class="opacity-light">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi recusandae possimus
-          dicta
-          amet accusamus
+      <div class="col-12 col-md-6 align-self-center ps-5">
+        <h1 class="mb-3 mb-md-5">Lorem ipsum dolor sit amet consectetur.</h1>
+        <!-- TODO Make text shorter -->
+        <p class="opacity-light mt-md-5 pt-md-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi
+          recusandae possimus dicta amet accusamus
           nesciunt itaque ipsa earum pariatur sint, debitis nulla reiciendis neque minus, natus aliquam quos hic unde.
           Nihil, sunt aliquid ipsam officia molestiae aliquam quaerat culpa. Maxime numquam optio dolores? Ipsam ab,
           odio, distinctio explicabo eaque quae aperiam quasi modi dolores temporibus maxime illo corporis est animi.
@@ -120,18 +126,18 @@
 
   <footer class="container-fluid">
     <!-- SECTION About -->
-    <section class="row bg-my-dark text-white">
-      <div class="col-12 col-md-4">
+    <section class="row bg-my-dark text-white p-5 align-items-center">
+      <div class="col-12 col-md-4 text-center text-md-start">
         <h4 class="logo">109leadr</h4>
         <address class="opacity-light">This is a cool address somewhere awesome</address>
       </div>
-      <div class="col-12 col-md-4">
+      <div class="col-12 col-md-4 text-center fs-3">
         <i class="mdi mdi-apple"></i>
         <i class="mdi mdi-android"></i>
       </div>
-      <div class="col-12 col-md-4">
-        <i class="mdi mdi-facebook"></i>
-        <i class="mdi mdi-twitter"></i>
+      <div class="col-12 col-md-4 text-md-end text-center">
+        <i class="mdi mdi-facebook fs-3"></i>
+        <i class="mdi mdi-twitter fs-3"></i>
         <p>Redazione - Credits</p>
       </div>
     </section>

@@ -9,12 +9,18 @@ html {
   font-family: 'Open Sans' sans-serif;
 }
 
-.opacity-dark {
-  color: rgb(85, 85, 85, .85);
+.logo {
+  font-family: 'Pacifico', cursive;
 }
 
-.opacity-light {
-  color: rgb(255, 255, 255, .75);
+.hero-text {
+  font-size: 4rem;
+}
+
+@media (max-width: 768px) {
+  .hero-text {
+    font-size: 2rem;
+  }
 }
 
 button.btn {
@@ -24,8 +30,12 @@ button.btn {
   padding: .6rem 0;
 }
 
-.logo {
-  font-family: 'Pacifico', cursive;
+.on-hover-effect {
+  transition: box-shadow .5s;
+}
+
+.on-hover-effect:hover {
+  box-shadow: 0 0 1rem -.5rem #364049;
 }
 
 
@@ -33,10 +43,15 @@ button.btn {
 
 
 
-
-
-
 /* BS5 like stuff */
+.opacity-dark {
+  color: rgb(85, 85, 85, .85);
+}
+
+.opacity-light {
+  color: rgb(255, 255, 255, .75);
+}
+
 .bg-primary-gradient {
   background: rgb(138, 197, 227);
   background: linear-gradient(180deg, rgba(138, 197, 227, 1) 0%, rgba(93, 161, 206, 1) 100%);
